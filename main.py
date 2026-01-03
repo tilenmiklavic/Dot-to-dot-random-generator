@@ -3,7 +3,6 @@ from PIL import Image, ImageDraw
 import random
 import math
 
-
 root = Tk()
 
 cHeight = 595
@@ -42,4 +41,3 @@ drawPoints(int(numPoints))
 
 image.show()
 image.save('output' + str(random.randint(1, cWidith * cHeight)) +'.pdf')
-
